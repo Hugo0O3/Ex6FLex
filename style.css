@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Uppercase-text-transform: uppercase;
+    --Police-font-family: 'Noto Sans Symbols';
+}
+
+body {
+    background-color: #2D4480;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    background-color: white;
+    width: 288px;
+    height: 469px;
+    border-radius: 27px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features section {
+    display: flex;
+    gap: 23px;
+    height: 33px;
+    padding: 5px;
+    align-items: center;
+}
+
+.features p {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 6%;
+    line-height: 32.8px;
+}
+
+.features img {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    width: 98px;
+    height: 36px;
+    text-align: center;
+    margin: 35px 95px 28px 95px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+hr {
+    margin-top: 27px;
+    width: 188px;
+    border: 1px solid #000000
+}
+
+.free {
+    margin: 8px 96px 8px 95px;
+}
+
+.forever {
+    width: 94px;
+    height: 36px;
+    transform: translate(30px);
+}
+
+.free>p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 13%;
+    color: #292929;
+
+}
+
+
+h3 {
+    font-family: 'Allan';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #2D4480;
+}
+
+h1,
+p,
+.free>p,
+a {
+    text-transform: uppercase;
+}
+
+h1,
+p,
+.free>a {
+    font-family: var(--Police-font-family);
+}
+
+.buttonStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    width: 181px;
+    height: 68px;
+    border-radius: 27px;
+    background-color: #ffbc0f;
+}
+
+a {
+    position: absolute;
+    text-decoration: none;
+    color: #253868;
+    text-align: center;
+    font-family: var(--Police-font-family);
+    font-size: 16px;
+    line-height: 32.8px;
+    letter-spacing: 6%;
+    font-weight: 600;
+}
