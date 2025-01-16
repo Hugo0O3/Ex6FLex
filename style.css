@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #2D4480;
+    background: linear-gradient(0deg, rgba(66,195,34,1) 0%, rgba(107,65,5,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +119,10 @@ p,
     height: 68px;
     border-radius: 27px;
     background-color: #ffbc0f;
+    background-image: url("./images/shrek.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-in-out;
 }
 
 a {
@@ -131,4 +135,8 @@ a {
     line-height: 32.8px;
     letter-spacing: 6%;
     font-weight: 600;
+}
+
+.buttonStyle:hover {
+    background-image: url(./images/ane.gif);
 }
